@@ -1,10 +1,9 @@
-pipeline {
-    agent any
+node {
 
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'  fidler search
+                echo 'Building..' 
             }
         }
         stage('Test') {
