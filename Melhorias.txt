@@ -1,0 +1,5 @@
+///////////////Melhorias///////////
+-Em vez de colocar os inputs manualmente ter os inputs (principais, tais como user, tokens) num ficheiro, e carrega-los automaticamente
+-build when a change is pushed to github  (GitHub hook trigger for GITScm polling)
+-Poder criar mais do que um job ao correr o script
+
