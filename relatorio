@@ -1,0 +1,68 @@
+/////Jenkins//////////
+-O Jenkins é um servidor de automação de código aberto escrito em Java. 
+O Jenkins ajuda a automatizar a parte não humana do processo de desenvolvimento de software, com integração contínua e facilitando os aspectos técnicos da entrega contínua.
+
+Jenkins offers a simple way to set up a continuous integration or continuous delivery environment for almost any combination of languages and source code repositories using pipelines, as well as automating other routine development tasks. While Jenkins doesn’t eliminate the need to create scripts for individual steps, it does give you a faster and more robust way to integrate your entire chain of build, test, and deployment tools than you can easily build yourself.
+
+“Don’t break the nightly build!” is a cardinal rule in software development shops that post a freshly built daily product version every morning for their testers. Before Jenkins, the best a developer could do to avoid breaking the nightly build was to build and test carefully and successfully on a local machine before committing the code. But that meant testing one’s changes in isolation, without everyone else’s daily commits. There was no firm guarantee that the nightly build would survive one’s commit.
+
+//////GLINTT//////////
+A Glintt - Global Intelligence Technologies é uma das maiores empresas tecnológicas portuguesas e está cotada na Euronext Lisbon. Atua na Europa, África e América Latina e possui uma forte posição nos setores de Bancos, Telecomunicações, Saúde, Comércio, Indústria e Administração Pública.
+
+/////Objetivos////////////
+
+Pretendesse melhorar os processos de build e deploys automáticos existentes.
+
+Pretendesse que o processo de criação de uma nova pipeline seja feita de forma mais rapida e automatizada.
+Objectivos esperados:
+	Criação de um script generico que atraves de alguns dados de imput, consiga criar uma pipeline em continuous integration.
+Aspectos inovadores:
+	Utilização de standards e de arquitectura adequada ao contexto.
+Plano de trabalhos:
+
+/////////////tecnologias utilizadas//////////////////
+java 
+jenkins
+github
+git
+-O script foi escrito em java, é uma linguagem da qual ja tenho alguma experiencia, adquirida na faculdade.
+- Dentro do script podemos utilizar as aquitecturas das tecnologias mencionadas acima, sendo que para o jenkins utilizamos hhtp request e para o github usamos commandos git, mas corridos sobre o srcipt. 
+//////////////tecnologias existentes alternativas////////////////
+python
+perl 
+poderia usar qualquer uma destas mas optei por java
+
+///////descriçao ordem cronologica do trabalho ////////////
+1ª Semana
+- Conhecimento Jenkins
+- Pipeline em Jenkins
+- Conhecimento da arquitectura das soluções
+2º
+ - estudo de comandos git 
+ -conhecimento da arquitectura de git
+3º a 7º Semana 
+- procura de soluçoes em java para correr comandos git, atraves de processos (process, streamgobbler)
+-impletmentar funçoes para comandos git em java tais como
+	.git clone 
+	.git push
+	.git init
+	.etc
+-impleemtaçao de funçoes para criação e pipeline em jenkins 
+-implemnetaçao de criaçao de ficheiro Jenkinsfile
+	.Explicar para que serve ficheiro Jenkinsfile
+-implementaçao de criaçao de funçao para criaçao de ficheiro confi.xml
+	.Explicar para que serve ficheiro config.xml 
+-implenetaçao de funçloa para fazer build no servidor jenkins 
+	.Usando token por causa de erro 403(forbidden access)
+8º Semana
+Apresentação das alterações e analise de melhorias futuras
+
+////////////conclusao////////////////
+Foi uma experiência enriquecedora, tanto pelo nivel de ver como as empresas trabalham, ganhar experiência a trabalhar com jenkins
+Ao inicio parecia uma coisa bastante complicado mas com o tempo e com bastante pesquisa tornou se um trabalho simples de fazer e compreender. 
+
+///////Apendice////////////
+clouldbees 
+jenkins 
+github
+java oracle
